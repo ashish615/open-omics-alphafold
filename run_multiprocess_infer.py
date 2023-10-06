@@ -151,6 +151,7 @@ def main(argv):
     max_processes_list = [4, 2, 1]
   else:
     max_processes_list = [2, 1]
+  max_processes_list = [4, 2, 1]
   print("Total cores: ", os.cpu_count() //2)
   print("Total memory: {} MB ".format(check_available_memory()))
 

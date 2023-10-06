@@ -135,7 +135,7 @@ def main(argv):
     max_processes_list = [8, 4, 2, 1]
   else: 
     max_processes_list = [4, 2, 1]
-
+  max_processes_list = [4, 2, 1]
   # Get the list of files in the directory.
   files = os.listdir(directory)
   for i, file in enumerate(files):
